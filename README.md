@@ -1,20 +1,30 @@
 # Nexus Platform Blueprint
 
-Nexus Platform ist die technische und strategische Grundlage für NexusERP AI.
+Nexus Platform ist die strategische und technische Grundlage für NexusERP AI.
 
-Ziel ist der Aufbau einer modularen Business Operating System Platform für Unternehmen.
+Ziel ist der Aufbau einer modularen Business Operating System Platform für Unternehmen. Darauf entstehen ERP, CRM, Dokumente, Workflows, KI-Agenten, Integrationen, White-Label-Produkte und spätere Enterprise-Erweiterungen.
 
 ## Grundsatz
 
-Wir bauen nicht nur ein ERP, sondern eine Plattform, auf der ERP, CRM, Workflows, Dokumente, KI-Agenten, Integrationen und White-Label-Produkte entstehen können.
+Wir bauen nicht nur ein ERP, sondern eine Plattform, auf der Unternehmenssoftware modular entstehen kann.
 
-## Arbeitsweise
+## Single Source of Truth
 
-Dieses Repository ist die Single Source of Truth.
+Dieses Repository ist die zentrale Wahrheit für:
+- Produktstrategie
+- Architektur
+- Datenmodell
+- Module
+- KI-Konzept
+- Sicherheit
+- Lizenzierung
+- Entwicklungsstandards
 
-Jede Entscheidung, jedes Modul und jede technische Spezifikation muss hier dokumentiert werden, bevor Claude, Lovable oder Entwickler mit der Umsetzung beginnen.
+Keine Umsetzung in Claude, Lovable oder Code ohne vorherige Spezifikation in diesem Repository.
 
 ## Status
 
 Version: 0.1  
-Phase: Blueprint
+Phase: Blueprint  
+Projektname: NexusERP AI  
+Plattformname: Nexus Platform
