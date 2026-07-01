@@ -1,21 +1,65 @@
-# CRM - Overview
+# CRM Module
 
-## Zweck
+## Ziel
 
-## Geschäftsproblem
+Das CRM-Modul verwaltet alle Kundenbeziehungen der Nexus Platform.
 
-## Manuelle Nutzung
+Es bildet die Grundlage für:
 
-## KI-assistierte Nutzung
+- Angebote
+- Aufträge
+- Rechnungen
+- Dokumente
+- Projekte
+- Kommunikation
+- KI-Assistent
 
-## Automatisierung
+---
 
-## Datenmodell
+# Hauptobjekte
 
-## Berechtigungen
+- Customer
+- Contact
+- Address
+- Activity
+- Opportunity
+- Note
+- Document
 
-## UI/UX
+---
 
-## Schnittstellen
+# Funktionen
 
-## Akzeptanzkriterien
+## Kundenverwaltung
+
+- Kunde anlegen
+- Kunde bearbeiten
+- Kunde archivieren
+
+## Kontakte
+
+- Ansprechpartner verwalten
+- Rollen definieren
+
+## Kommunikation
+
+- E-Mails
+- Telefonnotizen
+- Aufgaben
+
+## Dokumente
+
+- Verträge
+- Angebote
+- Dateien
+
+## KI
+
+Optional:
+
+- Kundenzusammenfassung
+- Gesprächszusammenfassung
+- Vorschläge
+- Erinnerungen
+
+Alle Funktionen müssen vollständig ohne KI nutzbar sein.
