@@ -1,25 +1,115 @@
-# NPA-002: Die 8 Kernsysteme
+# NPA-002 – Core Systems
 
-## 1. Identity System
-Login, Registrierung, MFA, SSO, Sessions, Tokens.
+## Ziel
 
-## 2. Tenant System
-Unternehmen, Standorte, Lizenzen, Branding, Sprache, Währung.
+Die Nexus Platform besteht aus acht zentralen Kernsystemen.
 
-## 3. Permission System
-Rollen, Rechte, Aktionen, Felder, KI-Berechtigungen.
+Jedes zukünftige Modul muss ausschließlich diese Kernsysteme verwenden.
 
-## 4. Data Platform
-Daten, Dateien, Historie, Audit, Versionen, Suche, Beziehungen.
+---
 
-## 5. Module Engine
-Registrierung und Verwaltung von Modulen.
+# 1. Identity System
 
-## 6. Workflow Engine
-Regeln, Prozesse, Genehmigungen, Automatisierung.
+Verantwortlich für:
 
-## 7. AI Platform
-Assistenten, Agenten, Vorschläge, Analyse, Governance.
+- Login
+- Registrierung
+- MFA
+- OAuth
+- SSO
+- Sessions
+- API Keys
 
-## 8. Integration Platform
-APIs, Webhooks, DATEV, Microsoft 365, Google, E-Commerce, Zahlungsanbieter.
+---
+
+# 2. Tenant System
+
+Verantwortlich für:
+
+- Unternehmen
+- Standorte
+- Lizenzen
+- Branding
+- Sprache
+- Währung
+
+---
+
+# 3. Permission System
+
+Verantwortlich für:
+
+- Rollen
+- Rechte
+- Policies
+- Feldberechtigungen
+
+---
+
+# 4. Data Platform
+
+Verantwortlich für:
+
+- Daten
+- Dateien
+- Historie
+- Audit
+- Suche
+- Beziehungen
+
+---
+
+# 5. Module Engine
+
+Verantwortlich für:
+
+- Registrierung von Modulen
+- Modul-Lebenszyklus
+- Aktivierung
+- Versionierung
+
+---
+
+# 6. Workflow Engine
+
+Verantwortlich für:
+
+- Prozesse
+- Regeln
+- Genehmigungen
+- Automatisierung
+
+---
+
+# 7. AI Platform
+
+Verantwortlich für:
+
+- KI-Assistent
+- Agenten
+- Zusammenfassungen
+- Analysen
+- Vorschläge
+
+---
+
+# 8. Integration Platform
+
+Verantwortlich für:
+
+- REST API
+- Webhooks
+- DATEV
+- Microsoft 365
+- Google
+- Shopify
+- Stripe
+- PayPal
+
+---
+
+## Architekturregel
+
+Module kommunizieren niemals direkt miteinander.
+
+Jede Kommunikation erfolgt ausschließlich über definierte Services und APIs.
